@@ -220,7 +220,17 @@ select{
     font-size: 19px;
     color: #1A1A1A;
 }
-
+.product:hover{
+    position: relative;
+    transition: all 0.9;
+    border: 2px solid #00B207;
+    box-shadow: 0px 0px 25px -8px rgba(0, 255, 10, 0.71);
+}
+.grup-img{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
 .num{
     display: flex;
     justify-content: center;
