@@ -19,5 +19,3 @@ function updateTime () {
     document.getElementById('clock').textContent = `${date}  : ${hour} : ${min} : ${sec}`
 }
 updateTime()
-
-setInterval(updateTime, 1000)
