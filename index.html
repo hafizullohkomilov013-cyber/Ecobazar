@@ -49,9 +49,15 @@
                     <button class="search-btn">Search</button>
                 </div>
                 <div class="shopping">
-                    <a href="#"><img src="./img/sersa-icon.svg" alt=""></a>
+                    <div class="icon-shop-head">
+                        <div class="count count1">0</div>
+                        <a href="#"><img src="./img/icon-like-header.svg" alt=""></a>
+                    </div>
                     <img style="width: 2px; height: 25px;" src="./img/Devider.svg" alt="">
-                    <a href="#"><img src="./img/shopping-icon.svg" alt=""></a>
+                    <div class="icon-shop-head">
+                        <div class="count count2">0</div>
+                        <a href="#"><img src="./img/icon-shopping-header.svg" alt=""></a>
+                    </div>
                     <div class="shopping-card">
                         <p>Shopping cart:</p>
                         <h2>$57.00</h2>
@@ -103,7 +109,7 @@
         <div class="container">
             <section class="main-section1">
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/chili.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -111,6 +117,11 @@
                                 <p>Red Chili</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(1)" >-</button>
+                                <spam class="count-product" data-id="1">0</spam>
+                                <button onclick="plus(1)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -118,7 +129,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/patotos.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -126,6 +137,11 @@
                                 <p>Big Potatos</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(2)" >-</button>
+                                <spam class="count-product" data-id="2">0</spam>
+                                <button onclick="plus(2)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -133,7 +149,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/cabage.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -141,14 +157,20 @@
                                 <p style="color: #2C742F;">Chanise Cabbage</p>
                                 <h2>$14.99</h2>
                             </div>
-                            <img src="./img/green-shop-icon.svg" alt="">
+                            <div class="count2">
+                                
+                                <button onclick="minus(3)" >-</button>
+                                <spam class="count-product" data-id="3">0</spam>
+                                <button onclick="plus(3)">+</button>
+                            </div>
+                            <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
                     </div>
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/littuce.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -156,6 +178,11 @@
                                 <p>Ladies Finger</p>
                                 <h2>$14.99 <span style="color: #999999; text-decoration: line-through;">$20.99</span></h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(4)" >-</button>
+                                <spam class="count-product" data-id="4">0</spam>
+                                <button onclick="plus(4)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -163,7 +190,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/tomoto.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -171,6 +198,11 @@
                                 <p>Red Tomato</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(5)" >-</button>
+                                <spam class="count-product" data-id="5">0</spam>
+                                <button onclick="plus(5)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -178,7 +210,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/Eggplant.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -186,6 +218,11 @@
                                 <p>Eggplant</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(6)" >-</button>
+                                <spam class="count-product" data-id="6">0</spam>
+                                <button onclick="plus(6)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -193,7 +230,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/fresh.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -201,6 +238,11 @@
                                 <p>Fresh Cauliflower</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(7)" >-</button>
+                                <spam class="count-product" data-id="7">0</spam>
+                                <button onclick="plus(7)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -208,7 +250,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/apple.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -216,6 +258,11 @@
                                 <p>Green Apple</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(8)" >-</button>
+                                <spam class="count-product" data-id="8">0</spam>
+                                <button onclick="plus(8)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -223,7 +270,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/mango.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -231,6 +278,11 @@
                                 <p>Fresh Mango</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(9)" >-</button>
+                                <spam class="count-product" data-id="9">0</spam>
+                                <button onclick="plus(9)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -238,7 +290,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/copsicum.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -246,6 +298,11 @@
                                 <p>Green Capsicum</p>
                                 <h2>$14.99 </h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(10)" >-</button>
+                                <spam class="count-product" data-id="10">0</spam>
+                                <button onclick="plus(10)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -253,7 +310,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/green-chili.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -261,6 +318,11 @@
                                 <p>Green Chili</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(11)" >-</button>
+                                <spam class="count-product" data-id="11">0</spam>
+                                <button onclick="plus(11)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -268,7 +330,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/cucumber.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -276,14 +338,19 @@
                                 <p>Green Cucumber <span style="color: #999999; text-decoration: line-through;">$20.99</span></p>
                                 <h2>$14.99</h2>
                             </div>
-                            <img src="./img/Add To Cart.svg" alt="">
+                            <div class="count2">
+                                <button onclick="minus(12)" >-</button>
+                                <spam class="count-product" data-id="12">0</spam>
+                                <button onclick="plus(12)">+</button>
+                            </div>
+                                <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
                     </div>
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/littuce.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -291,6 +358,11 @@
                                 <p>Green Littuce</p>
                                 <h2>$14.99</h2>
                             </div>
+                            <div class="count2">
+                                <button onclick="minus(13)" >-</button>
+                                <spam class="count-product" data-id="13">0</spam>
+                                <button onclick="plus(13)">+</button>
+                            </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
                         <img src="./img/yulduz.svg" alt="">
@@ -298,7 +370,7 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/littuce222.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
@@ -306,20 +378,10 @@
                                 <p>Green Littuce</p>
                                 <h2>$14.99</h2>
                             </div>
-                            <img src="./img/Add To Cart.svg" alt="">
-                        </div>
-                        <img src="./img/yulduz.svg" alt="">
-                    </div>
-                </div>
-                
-                <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
-                    <img src="./img/finger.png" alt="">
-                    <div class="product-child-box">
-                        <div class="chili-box">
-                            <div class="chili-coust">
-                                <p>Ladies Finger</p>
-                                <h2>$14.99</h2>
+                            <div class="count2">
+                                <button onclick="minus(14)" >-</button>
+                                <spam class="count-product" data-id="14">0</spam>
+                                <button onclick="plus(14)">+</button>
                             </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
@@ -328,13 +390,38 @@
                 </div>
                 
                 <div class="product">
-                    <img class="grup-img" src="./img/Group 1.svg" alt="">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
+                    <img src="./img/finger.png" alt="">
+                    <div class="product-child-box">
+                        <div class="chili-box">
+                            <div class="chili-coust">
+                                <p>Ladies Finger</p>
+                                <h2>$14.99</h2>
+                            </div>
+                            <div class="count2">
+                                <button onclick="minus(15)" >-</button>
+                                <spam class="count-product" data-id="15">0</spam>
+                                <button onclick="plus(15)">+</button>
+                            </div>
+                                <img src="./img/Add To Cart.svg" alt="">
+                        </div>
+                        <img src="./img/yulduz.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="product">
+                    <img class="grup-img" src="./img/icon-like-header.svg" alt="">
                     <img src="./img/red-copsicum.png" alt="">
                     <div class="product-child-box">
                         <div class="chili-box">
                             <div class="chili-coust">
                                 <p>Green Capsicum</p>
                                 <h2>$14.99</h2>
+                            </div>
+                            <div class="count2">
+                                <button onclick="minus(16)" >-</button>
+                                <spam class="count-product" data-id="16">0</spam>
+                                <button onclick="plus(16)">+</button>
                             </div>
                             <img src="./img/Add To Cart.svg" alt="">
                         </div>
