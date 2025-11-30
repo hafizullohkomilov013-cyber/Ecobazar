@@ -24,51 +24,6 @@ setInterval(updateTime, 1000)
 
 
 
-    // const countEl = document.querySelectorAll(".count-product1");
-    // const countEl1 = document.getElementsByClassName("count")[0];
-
-    // let count = Number(countEl[0].textContent);
-
-    // function updateAll() {
-    // countEl.forEach((el) => (el.textContent = count));
-    // countEl1.textContent = count;
-    // }
-    // console.log(count);
-
-
-    // function plus() {
-    // count++;
-    // updateAll();
-    // }
-
-    // function minus() {
-    // if (count <= 0) return;
-    // count--;
-    // updateAll();
-    // }
-    // const countEl2 = document.querySelectorAll(".count-product2");
-
-
-    // function updateAll() {
-    // countEl2.forEach((el) => (el.textContent = count));
-    // countEl1.textContent = count;
-    // }
-    // console.log(count);
-
-
-    // function plus2() {
-    // count++;
-    // updateAll();
-    // }
-
-    // function minus2() {
-    // if (count <= 0) return;
-    // count--;
-    // updateAll();
-    // }
-
-
-
 
 let counts = Array(16).fill(0);
 
@@ -82,20 +37,17 @@ function updateTotal() {
 
 function plus(id) {
   counts[id - 1]++; 
-  updateElement(id);
+  updateEl(id);
   updateTotal();
 }
 
 function minus(id) {
   if (counts[id - 1] <= 0) return;
   counts[id - 1]--;
-  updateElement(id);
+  updateEl(id);
   updateTotal();
 }
 
-function updateElement(id) {
-  const el = document.querySelector(`.count-product[data-id="${id}"]`);
-  el.textContent = counts[id - 1];
+function updateEl(id) {
+  products[id - 1].textContent = counts[id - 1];
 }
-
-
